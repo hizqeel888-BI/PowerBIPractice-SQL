@@ -1,0 +1,12 @@
+-- Create the database
+CREATE DATABASE TechHealthDb;
+GO
+
+-- Use the newly created database
+USE TechHealthDb;
+GO
+
+-- Verify creation by checking system databases
+SELECT * FROM sys.databases 
+WHERE name = 'TechHealthDb';
+GO
